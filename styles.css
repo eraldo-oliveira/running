@@ -104,3 +104,12 @@ label {
 th {
     text-align: left;
 }
+
+.text-resume {
+    font-weight: bold;
+}
+
+.double {
+    display: flex;
+    justify-content: space-around;
+}
