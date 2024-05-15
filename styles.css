@@ -31,14 +31,44 @@ body {
 .table {
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;   
+    margin-bottom: 3rem;
 }
 
 .footer {
     display: flex;
-    justify-content: center;
+
 }
 
 .list {
     list-style-type: none;
+}
+
+table td {
+  border-top: 2px solid black;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.coluna-flex-70 {
+  width: 70%;
+}
+
+.coluna-flex-30 {
+  width: 30%;
+}
+
+footer {
+  background-color: #463738;
+  color: white
+}
+
+.centrar-footer {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.list {
+  padding-left: 0;
 }
