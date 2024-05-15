@@ -13,15 +13,23 @@ body {
     margin-top: 3rem;
     margin-bottom: 2rem;
     text-align: center;
+    font-size: 2.5rem;
 }
 
 .subtitle {
     margin-bottom: 3rem;
     text-align: center;
+    font-size: 80%;
 }
 
 .videoyt {
     margin-bottom: 3rem;
     display: flex;
     justify-content: center;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
 }
