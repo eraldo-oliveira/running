@@ -31,5 +31,14 @@ body {
 .table {
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: 3rem;   
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.list {
+    list-style-type: none;
 }
