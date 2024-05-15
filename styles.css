@@ -31,7 +31,7 @@ body {
 .table {
     display: flex;
     justify-content: center;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 .footer {
@@ -41,6 +41,8 @@ body {
 
 .list {
     list-style-type: none;
+    padding-left: 0;
+
 }
 
 table td {
@@ -53,15 +55,19 @@ table {
 
 .coluna-flex-70 {
   width: 70%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .coluna-flex-30 {
   width: 30%;
+  margin-top: 1rem;
 }
 
 footer {
   background-color: #463738;
-  color: white
+  color: white;
+  font-weight: bold;
 }
 
 .centrar-footer {
@@ -69,6 +75,28 @@ footer {
   margin: 0 auto;
 }
 
-.list {
-  padding-left: 0;
+li {
+    margin-bottom: 1rem;
+}
+
+input {
+    margin-bottom: 1rem;
+}
+
+#email {
+    width: 90%;
+    height: 25px;
+}
+
+label {
+    font-size: 93%;
+}
+
+#subscrit {
+    width: 93%;
+    height: 30px;
+    background-color: greenyellow;
+    border: none;
+    color: white;
+    font-weight: bold;
 }
