@@ -105,11 +105,60 @@ th {
     text-align: left;
 }
 
+.double {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 80%;
+}
+
 .text-resume {
+    font-weight: bold;
+    width: 60%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.coluna-direita {
+    width: 40%;
+    margin: 7rem 0 0 5rem;
+}
+
+.title2 {
+    font-size: 35px;
+}
+
+.eventos {
+    margin-top: 2.5rem;
+    width: 60%;
+}
+
+.quadrados {
+    margin-top: 2.5rem;
+    width: 40%;
+    margin: 2.5rem 0 0 5rem;
+}
+
+.flex {
+    display: flex;
+    margin-bottom: 1rem;
+    gap: 5px;
+}
+
+.border {
+    border: 1px solid red;
+}
+
+.data {
+    font-size: 25px;
     font-weight: bold;
 }
 
-.double {
-    display: flex;
-    justify-content: space-around;
+.data2 {
+    font-size: 15px;
+    font-weight: bold;
 }
+
